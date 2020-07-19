@@ -61,7 +61,7 @@ _SUBDEVICE_MAPPING = {
 _dynamic_types = {}
 
 
-def _caclulate_device_type_name(device_type: str, hardware_version: str, firmware_version: str) -> str:
+def _calculate_device_type_name(device_type: str, hardware_version: str, firmware_version: str) -> str:
     """
     Calculates the name of the dynamic-type for a specific class of devices
     :param device_type:
